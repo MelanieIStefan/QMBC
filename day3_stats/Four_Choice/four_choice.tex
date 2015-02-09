@@ -1,0 +1,35 @@
+\documentclass[pdflatex]{article}
+
+\begin{document}
+
+\section*{Choose a number out of 4}
+
+\begin{enumerate}
+\item
+Have N people pick a number from 1 to R, inclusive. What is the probability, p, of K or more choices of any single number? Your function should take inputs R, N, K and a 4th variable, nSims (number of simulations to run) and return the probability, p.
+
+\verb_p = MyFunction(R, N, K, nSims);_
+\item
+This example is from actual class data taken on 16 August 2012. The instructions were to pick at random a number from \(1\) to \(4\). Here is the actual data from \(75\) respondents:
+
+\begin{itemize}
+\item
+7 people chose number 1 (\(9\,\%\))
+\item
+24 people chose number 2 (\(32\,\%\))
+\item
+34 people chose number 3 (\(45\,\%\))
+\item
+10 people chose number 4 (\(13\,\%\))
+\end{itemize}
+
+Is this distribution random?
+
+\emph{Hint}: The hardest part of this exercise is defining what class of outcomes you would consider "weird." You need to have a precise definition so that you can count how often they occur when you generate a bunch of simulations under the null hypothesis (H0). By the way, what is your null hypothesis? Start out by discussing - in words - in small groups the definition of H0 and the precise definition of the type of event you would consider to violate H0. \emph{Resist the temptation to start coding right away.}
+
+\item
+Bonus exercise: For MATLAB show-offs, this can be done in a single line of code. What are the advantages and disadvantages of doing it this way?
+
+\end{enumerate}
+
+\end{document}
